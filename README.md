@@ -16,6 +16,17 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Environment Variables
+
+This project requires the following environment variables to be set in your `.env` file:
+
+```bash
+NEXT_PUBLIC_RAPIDAPI_KEY=your_rapidapi_key_here
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+Make sure to create a `.env` file in the root directory and add these variables with your actual API keys.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
@@ -34,3 +45,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+make the ui better (there must be exactly input only to be shown to user, expected output will be shown as well, the problem statement and hint is taking too much of the hight)
